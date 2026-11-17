@@ -58,8 +58,10 @@ p{margin:0 0 1em}
 .arrow::after{content:"";position:absolute;bottom:-4px;left:-4px;border:5px solid transparent;border-top-color:var(--sky)}
 .arrow.ok{background:linear-gradient(#34d399,rgba(52,211,153,.3))}
 .arrow.ok::after{border-top-color:#34d399}
-.blocked{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;justify-content:center}
-.blocked span{font-size:.78rem;font-weight:600;color:#fecaca;background:rgba(239,68,68,.14);border:1px solid rgba(239,68,68,.35);padding:4px 10px;border-radius:999px;text-decoration:line-through;text-decoration-color:rgba(254,202,202,.6)}
+.blocked-label{margin:20px 0 8px;text-align:center;font-size:.75rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#c9d7f5}
+.blocked{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.blocked span{font-size:.78rem;font-weight:600;color:#fecaca;background:rgba(239,68,68,.14);border:1px solid rgba(239,68,68,.35);padding:4px 10px;border-radius:999px}
+.blocked span::before{content:"\2715";margin-right:6px;color:#f87171;font-weight:700}
 
 /* band */
 .band{background:#fff;border-bottom:1px solid var(--line)}
