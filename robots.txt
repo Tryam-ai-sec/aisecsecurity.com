@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aisecurety.com/sitemap.xml
+Sitemap: https://aisecsecurity.com/sitemap.xml
